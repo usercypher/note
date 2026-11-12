@@ -92,7 +92,7 @@ foreach (array(
         <center class="col w4" style="margin-top: 2em;">
             <div class="w3">
             <h2>Directory index</h2>
-            <p>Visit your user name via note.lmd.dedyne.io/n/username/ and get directory listing.
+            <p>Visit your user name via note.lmb.dedyn.io/note/list/usernams/ and get directory listing.
             </div>
         </center>
         <center class="col w4 end" style="margin-top: 2em;">
@@ -144,4 +144,3 @@ foreach (array(
         </div>
     </div>
 </body>
-</html>
