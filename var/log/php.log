@@ -1,0 +1,10 @@
+[01-Nov-2026 06:40:45 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined array key "app" in /data/data/com.termux/files/home/app/note/src/Shared/Lib/Shared_Lib_Translator.php:18
+Stack trace:
+#0 /data/data/com.termux/files/home/app/note/src/Shared/Lib/Shared_Lib_Translator.php(18): Shared_Pipe_ErrorHandler->error(2, 'Undefined array...', '/data/data/com....', 18)
+#1 /data/data/com.termux/files/home/app/note/src/App/res/error/text.html.php(12): Shared_Lib_Translator->get('app')
+#2 /data/data/com.termux/files/home/app/note/uc.php(880): require('/data/data/com....')
+#3 /data/data/com.termux/files/home/app/note/uc.php(363): App->template('/data/data/com....', Array)
+#4 /data/data/com.termux/files/home/app/note/src/Shared/Pipe/Shared_Pipe_ErrorHandler.php(41): App->error(1, 'syntax error, u...', '/data/data/com....', 7, Array)
+#5 [internal function]: Shared_Pipe_ErrorHandler->exception(Object(ParseError))
+#6 {main}
+  thrown in /data/data/com.termux/files/home/app/note/src/Shared/Lib/Shared_Lib_Translator.php on line 18

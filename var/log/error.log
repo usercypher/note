@@ -1,0 +1,196 @@
+[2026-10-30 07:22:18.502122 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /asset/css/uc.css-usage.css in /data/data/com.termux/files/home/app/github/uc/index.php:65
+[2026-10-30 07:22:23.832587 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /assets/css/uc.css-usage.css in /data/data/com.termux/files/home/app/github/uc/index.php:65
+[2026-10-30 07:22:29.951348 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /assets/css/uc.css-usage.html in /data/data/com.termux/files/home/app/github/uc/index.php:65
+[2026-10-31 05:48:18.202498 +0000] [php 2] [cli 1] Undefined array key "Shared_Pipe_SessionTokenGeberate" in /data/data/com.termux/files/home/app/note/uc.php:381
+[2026-10-31 05:59:06.379090 +0000] [php 1] [fpm-fcgi 500] json_decode(): Argument #1 ($json) must be of type string, array given in /data/data/com.termux/files/home/app/note/src/App/res/index.html.php:51
+[2026-10-31 06:54:41.934142 +0000] [php 2] [fpm-fcgi 500] foreach() argument must be of type array|object, null given in /data/data/com.termux/files/home/app/note/src/App/res/index.html.php:95
+[2026-10-31 09:56:34.900388 +0000] [php 2] [fpm-fcgi 500] PDO::prepare(): SQLSTATE[HY000]: General error: 1 no such column: email in /data/data/com.termux/files/home/app/note/src/Shared/Lib/Shared_Lib_Database.php:79
+[2026-10-31 09:57:33.050005 +0000] [php 2] [fpm-fcgi 500] Undefined variable $userFound in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_SessionVerify.php:33
+[2026-10-31 09:57:50.719182 +0000] [php 2] [fpm-fcgi 500] Undefined variable $userFound in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_SessionVerify.php:33
+[2026-10-31 10:39:01.343033 +0000] [php 2] [fpm-fcgi 500] Undefined array key "app/" in /data/data/com.termux/files/home/app/note/uc.php:768
+[2026-10-31 11:07:15.244970 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /app/ in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-10-31 11:07:17.858038 +0000] [php 1] [fpm-fcgi 500] session_set_cookie_params(): Argument #1 ($lifetime_or_options) must contain at least 1 valid key in /data/data/com.termux/files/home/app/note/src/Shared/Lib/Shared_Lib_Session.php:11
+[2026-10-31 11:07:17.902095 +0000] [php 1] [fpm-fcgi 500] session_set_cookie_params(): Argument #1 ($lifetime_or_options) must contain at least 1 valid key in /data/data/com.termux/files/home/app/note/src/Shared/Lib/Shared_Lib_Session.php:11
+[2026-11-01 06:10:23.740783 +0000] [php 2] [cli 1] Undefined array key "Shared_Pipe_Headed" in /data/data/com.termux/files/home/app/note/uc.php:593
+[2026-11-01 06:40:45.328512 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected single-quoted string "Strict-Transport-Security", expecting ")" in /data/data/com.termux/files/home/app/note/src/Shared/Pipe/Shared_Pipe_Header.php:7
+[2026-11-05 10:05:06.328232 +0000] [php 1] [cli 1] PDO::exec(): Argument #1 ($statement) must not be empty in /data/data/com.termux/files/home/app/note/src/Shared/Lib/Shared_Lib_Database.php:74
+[2026-11-05 10:37:04.450780 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token "{" in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_Store.php:32
+[2026-11-05 10:37:28.235806 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token "}" in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_Store.php:34
+[2026-11-05 10:49:46.719250 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token ":" in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_Index.php:20
+[2026-11-05 10:49:59.728258 +0000] [php 2] [fpm-fcgi 500] Undefined array key "app" in /data/data/com.termux/files/home/app/note/src/User/res/partial/session.html.php:10
+[2026-11-05 10:51:12.176172 +0000] [php 2] [fpm-fcgi 500] Undefined array key "flash" in /data/data/com.termux/files/home/app/note/src/App/res/index.html.php:14
+[2026-11-05 11:18:33.620631 +0000] [php 512] [cli 1] Duplicate unit detected: User_Pipe_Cli_Create from src/Note/Pipe/Cli/User_Pipe_Cli_Create.php and src/User/Pipe/Cli/User_Pipe_Cli_Create.php in /data/data/com.termux/files/home/app/note/uc.php:581
+[2026-11-05 15:05:30.401385 +0000] [php 2] [cli 1] Undefined array key "Note_Pipe_Lang" in /data/data/com.termux/files/home/app/note/uc.php:381
+[2026-11-05 15:08:56.087842 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token "}", expecting ";" in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:57
+[2026-11-05 15:09:42.564615 +0000] [php 8192] [fpm-fcgi 500] parse_str(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:75
+[2026-11-05 15:09:56.320302 +0000] [php 8192] [fpm-fcgi 500] Constant SID is deprecated since 8.4, as GET/POST sessions were deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:104
+[2026-11-05 15:09:57.817110 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:09:59.371545 +0000] [php 8192] [fpm-fcgi 500] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:185
+[2026-11-05 15:10:01.082527 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:10:04.129163 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:10:09.572851 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:10:11.077648 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:10:25.883706 +0000] [php 1] [fpm-fcgi 500] Call to undefined method Shared_Lib_Database::toString() in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:29
+[2026-11-05 15:10:48.562208 +0000] [php 1] [fpm-fcgi 500] Call to undefined method Shared_Lib_Database::toString() in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:29
+[2026-11-05 15:11:25.807503 +0000] [php 1] [fpm-fcgi 500] Call to undefined method Note_Repo::fileNotExists() in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:45
+[2026-11-05 15:11:59.598661 +0000] [php 1] [fpm-fcgi 500] Call to undefined method Note_Repo::fileNotExists() in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:45
+[2026-11-05 15:12:12.615876 +0000] [php 2] [fpm-fcgi 500] Trying to access array offset on null in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:45
+[2026-11-05 15:12:50.428458 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:12:55.234162 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:12:56.725956 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:13:10.926400 +0000] [php 2] [fpm-fcgi 500] Trying to access array offset on null in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:45
+[2026-11-05 15:23:23.090181 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:23:28.004824 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:23:29.520938 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:23:39.997603 +0000] [php 2] [fpm-fcgi 500] Undefined variable $oldfilename in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:103
+[2026-11-05 15:24:16.063417 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:24:21.542843 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:24:21.635661 +0000] [php 2] [fpm-fcgi 500] require(/data/data/com.termux/files/home/app/note/src/App/Note/partial/notes.html.php): Failed to open stream: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:880
+[2026-11-05 15:24:23.028443 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:24:23.395467 +0000] [php 2] [fpm-fcgi 500] require(/data/data/com.termux/files/home/app/note/src/App/Note/partial/notes.html.php): Failed to open stream: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:880
+[2026-11-05 15:24:36.903277 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /user/unset in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-05 15:24:41.032896 +0000] [php 2] [fpm-fcgi 500] require(/data/data/com.termux/files/home/app/note/src/App/Note/partial/notes.html.php): Failed to open stream: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:880
+[2026-11-05 15:25:11.490221 +0000] [php 2] [fpm-fcgi 500] require(/data/data/com.termux/files/home/app/note/src/Note/partial/notes.html.php): Failed to open stream: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:880
+[2026-11-05 15:25:28.663406 +0000] [php 2] [fpm-fcgi 500] require(/data/data/com.termux/files/home/app/note/src/Note/res/dashboard.html.php): Failed to open stream: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:880
+[2026-11-05 15:25:45.880001 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected single-quoted string "slot", expecting ")" in /data/data/com.termux/files/home/app/note/src/Note/res/partial/dashboard.html.php:6
+[2026-11-05 15:26:55.689524 +0000] [php 2] [fpm-fcgi 500] Undefined array key "note" in /data/data/com.termux/files/home/app/note/uc.php:764
+[2026-11-05 15:28:13.651318 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:28:16.600593 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:28:21.389242 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:28:22.879463 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:29:31.745215 +0000] [php 2] [fpm-fcgi 500] Undefined array key "note" in /data/data/com.termux/files/home/app/note/uc.php:764
+[2026-11-05 15:29:46.888562 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:29:50.884950 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:29:52.383886 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:30:16.082510 +0000] [php 2] [fpm-fcgi 500] Undefined array key "username" in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:56
+[2026-11-05 15:31:00.501022 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:31:05.372245 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:31:06.863605 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:31:14.149159 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-05 15:38:23.325029 +0000] [php 1] [fpm-fcgi 500] Call to undefined method App::dirOpen() in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_Notes.php:20
+[2026-11-05 15:38:53.567138 +0000] [php 1] [fpm-fcgi 500] Call to undefined method App::diropen() in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_Notes.php:20
+[2026-11-05 15:39:50.974662 +0000] [php 1] [fpm-fcgi 500] Call to undefined method App::diropen() in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_Notes.php:20
+[2026-11-05 15:39:59.088396 +0000] [php 2] [fpm-fcgi 500] Trying to access array offset on null in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_Notes.php:20
+[2026-11-05 15:40:52.391649 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /app/dashboard in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-05 15:41:10.801241 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token ">" in /data/data/com.termux/files/home/app/note/src/Note/res/partial/notes.html.php:15
+[2026-11-05 15:41:23.424974 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected end of file in /data/data/com.termux/files/home/app/note/src/Note/res/partial/notes.html.php:17
+[2026-11-05 15:41:33.151362 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected end of file in /data/data/com.termux/files/home/app/note/src/Note/res/partial/notes.html.php:17
+[2026-11-05 15:42:25.950661 +0000] [php 2] [fpm-fcgi 500] Undefined array key "app" in /data/data/com.termux/files/home/app/note/src/Note/res/partial/notes.html.php:8
+[2026-11-05 15:43:03.144304 +0000] [php 2] [fpm-fcgi 500] Undefined array key "user" in /data/data/com.termux/files/home/app/note/src/Note/res/partial/notes.html.php:8
+[2026-11-05 15:43:35.423518 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected end of file in /data/data/com.termux/files/home/app/note/src/Note/res/partial/notes.html.php:17
+[2026-11-05 15:49:22.513577 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:49:27.415545 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:49:29.288400 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:50:24.968248 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-05 15:50:25.011429 +0000] [php 2] [fpm-fcgi 500] opendir(/data/data/com.termux/files/home/app/note/web/n/test): Failed to open directory: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:1044
+[2026-11-05 15:50:44.929287 +0000] [php 2] [fpm-fcgi 500] opendir(/data/data/com.termux/files/home/app/note/web/n/test): Failed to open directory: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:1044
+[2026-11-05 15:50:46.103881 +0000] [php 2] [fpm-fcgi 500] opendir(/data/data/com.termux/files/home/app/note/web/n/test): Failed to open directory: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:1044
+[2026-11-05 15:50:52.881733 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:50:57.477322 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:50:58.980415 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:52:17.969654 +0000] [php 1] [fpm-fcgi 500] Call to undefined method Shared_Lib_Cast_Standard::default() in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:30
+[2026-11-05 15:53:20.111543 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:53:24.372451 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:53:25.856712 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:53:42.467507 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-05 15:54:25.959797 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:54:30.379652 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-05 15:54:32.213818 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-05 15:54:57.999182 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-06 10:45:36.849172 +0000] [php 2] [cli 1] Undefined array key "Note_Pipe_Create" in /data/data/com.termux/files/home/app/note/uc.php:602
+[2026-11-06 11:59:44.668576 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-06 12:05:15.081761 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /app/dashboard in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-06 21:40:32.100317 +0000] [php 8192] [fpm-fcgi 500] Constant SID is deprecated since 8.4, as GET/POST sessions were deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:104
+[2026-11-06 21:40:40.973540 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-06 21:40:42.530140 +0000] [php 8192] [fpm-fcgi 500] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:185
+[2026-11-06 21:40:44.295077 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-06 21:40:47.442148 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-06 21:40:51.939638 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-06 21:40:53.742133 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-06 21:46:30.288869 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-06 21:46:34.579797 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-06 21:46:36.082354 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-06 21:46:45.151014 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-07 00:05:16.512925 +0000] [php 2] [cli 1] Undefined array key "Note_Pipe_NoteList" in /data/data/com.termux/files/home/app/note/uc.php:381
+[2026-11-07 00:20:22.382771 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /note/create in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-07 00:20:31.982366 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /note/create in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-07 00:21:09.191646 +0000] [php 1] [fpm-fcgi 500] Class "Note_Pipe_Create" not found in /data/data/com.termux/files/home/app/note/uc.php:734
+[2026-11-07 00:21:28.139408 +0000] [php 2] [fpm-fcgi 500] Undefined variable $note in /data/data/com.termux/files/home/app/note/src/Note/res/partial/create.html.php:25
+[2026-11-07 00:24:04.961039 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-07 00:26:22.129972 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-07 00:27:02.140559 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-07 00:30:50.338302 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-07 00:31:09.261563 +0000] [php 8192] [fpm-fcgi 500] Creation of dynamic property Note_Repo::$messages is deprecated in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:15
+[2026-11-07 00:31:14.465601 +0000] [php 2] [fpm-fcgi 500] Undefined property: Note_Repo::$messages in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:19
+[2026-11-07 00:33:43.072180 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token "!", expecting "," or ";" in /data/data/com.termux/files/home/app/note/src/Note/res/partial/dashboard.html.php:34
+[2026-11-07 01:07:43.132671 +0000] [php 8192] [fpm-fcgi 500] parse_str(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:75
+[2026-11-07 01:07:43.861217 +0000] [php 8192] [fpm-fcgi 500] parse_str(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:75
+[2026-11-07 01:34:18.700966 +0000] [php 2] [fpm-fcgi 500] Undefined variable $content in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:93
+[2026-11-07 01:35:13.466251 +0000] [php 2] [fpm-fcgi 500] Undefined variable $user in /data/data/com.termux/files/home/app/note/src/Note/res/partial/edit.html.php:33
+[2026-11-07 01:35:56.425561 +0000] [php 2] [fpm-fcgi 500] Undefined variable $user in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_Update.php:24
+[2026-11-07 01:36:30.248670 +0000] [php 2] [fpm-fcgi 500] Undefined variable $context in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_Update.php:23
+[2026-11-07 01:36:46.631664 +0000] [php 2] [fpm-fcgi 500] Undefined variable $oldfilename in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:129
+[2026-11-07 01:37:28.409502 +0000] [php 2] [fpm-fcgi 500] Undefined variable $oldfilename in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:129
+[2026-11-07 01:38:28.859898 +0000] [php 2] [fpm-fcgi 500] Undefined variable $oldfilename in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:129
+[2026-11-07 01:38:42.668354 +0000] [php 1] [fpm-fcgi 500] Cannot access offset of type string on string in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:73
+[2026-11-07 01:44:01.297737 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /note/eit/tes.htmll in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-07 01:45:18.651032 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /note/edt/tes.htmll in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-07 08:18:31.149066 +0000] [php 8] [fpm-fcgi 500] PHP Request Startup: file created in the system's temporary directory in Unknown:0
+[2026-11-07 10:54:31.718591 +0000] [php 1] [fpm-fcgi 500] Class "Note_Pipe_Delete" not found in /data/data/com.termux/files/home/app/note/uc.php:737
+[2026-11-07 10:54:49.399579 +0000] [php 2] [fpm-fcgi 500] Undefined array key "redirect" in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_Delete.php:18
+[2026-11-07 11:07:17.118008 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected variable "$deleteTpl" in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_List.php:32
+[2026-11-07 12:17:33.193146 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /note/111 in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-08 04:48:30.228854 +0000] [php 2] [fpm-fcgi 500] Trying to access array offset on null in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_List.php:21
+[2026-11-08 04:49:53.911640 +0000] [php 2] [fpm-fcgi 500] Undefined array key "user_is_auth_route" in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_IsAuth.php:17
+[2026-11-08 13:22:11.860845 +0000] [php 2] [fpm-fcgi 500] Undefined array key "user" in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_UserStoreSession.php:16
+[2026-11-08 13:23:20.381657 +0000] [php 2] [fpm-fcgi 500] opendir(/data/data/com.termux/files/home/app/note/web/n/b): Failed to open directory: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:1049
+[2026-11-08 13:23:35.225237 +0000] [php 2] [fpm-fcgi 500] opendir(/data/data/com.termux/files/home/app/note/web/n/b): Failed to open directory: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:1049
+[2026-11-08 13:24:04.894771 +0000] [php 8192] [fpm-fcgi 500] parse_str(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:75
+[2026-11-08 13:24:26.373207 +0000] [php 8192] [fpm-fcgi 500] Constant SID is deprecated since 8.4, as GET/POST sessions were deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:104
+[2026-11-08 13:24:27.868934 +0000] [php 8192] [fpm-fcgi 500] parse_str(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:75
+[2026-11-08 13:24:34.019600 +0000] [php 8192] [fpm-fcgi 500] Constant SID is deprecated since 8.4, as GET/POST sessions were deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:104
+[2026-11-08 13:24:35.513293 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-08 13:24:37.068676 +0000] [php 8192] [fpm-fcgi 500] str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:185
+[2026-11-08 13:24:38.839668 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-08 13:24:42.087793 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-08 13:25:04.668672 +0000] [php 8192] [fpm-fcgi 500] Implicit conversion from float 0.15259021896696423 to int loses precision in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:243
+[2026-11-08 13:25:06.170530 +0000] [php 8192] [fpm-fcgi 500] substr(): Passing null to parameter #1 ($string) of type string is deprecated in /data/data/com.termux/files/home/app/note/src/Adminer/res/adminer.php:195
+[2026-11-08 13:36:06.521309 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /test in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-08 13:36:17.800438 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /note/list/test in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-08 13:36:35.614290 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /note/list/user in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-08 13:41:59.464960 +0000] [php 2] [fpm-fcgi 500] opendir(/data/data/com.termux/files/home/app/note/web/n/uer): Failed to open directory: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:1049
+[2026-11-08 13:54:24.922675 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token ":", expecting "(" in /data/data/com.termux/files/home/app/note/src/App/res/partial/dashboard.html.php:43
+[2026-11-08 14:17:48.603104 +0000] [php 2] [fpm-fcgi 500] Undefined variable $listExists in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_List.php:48
+[2026-11-12 03:09:46.781289 +0000] [php 1] [fpm-fcgi 500] Call to a member function remove() on null in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_Settings.php:18
+[2026-11-12 03:10:13.904378 +0000] [php 2] [fpm-fcgi 500] Undefined variable $appTranslator in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_Settings.php:22
+[2026-11-12 03:10:47.016731 +0000] [php 2] [fpm-fcgi 500] Undefined variable $appLanguages in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_Settings.php:23
+[2026-11-12 03:18:41.355513 +0000] [php 2] [fpm-fcgi 500] Undefined array key "session_token" in /data/data/com.termux/files/home/app/note/src/App/res/partial/edit_account.html.php:11
+[2026-11-12 03:27:17.580105 +0000] [php 2] [fpm-fcgi 500] foreach() argument must be of type array|object, null given in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_Settings.php:30
+[2026-11-12 03:27:49.880481 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected single-quoted string "partial_edit_password", expecting ")" in /data/data/com.termux/files/home/app/note/src/App/res/partial/settings.html.php:7
+[2026-11-12 03:32:11.757767 +0000] [php 2] [fpm-fcgi 500] Undefined array key "username" in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_Update.php:48
+[2026-11-12 03:33:21.412088 +0000] [php 2] [fpm-fcgi 500] Undefined array key "username" in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_Update.php:48
+[2026-11-12 03:43:50.995416 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token ">", expecting "elseif" or "else" or "endif" in /data/data/com.termux/files/home/app/note/src/App/res/partial/settings.html.php:21
+[2026-11-12 04:14:10.064963 +0000] [php 1] [fpm-fcgi 500] Undefined constant "userSession" in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_Update.php:25
+[2026-11-12 04:16:04.952121 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token ";", expecting ")" in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_UserEventDeleteNoteDir.php:16
+[2026-11-12 04:16:25.029673 +0000] [php 2] [fpm-fcgi 500] Undefined variable $user in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_UserEventDeleteNoteDir.php:16
+[2026-11-12 04:18:22.672723 +0000] [php 2] [fpm-fcgi 500] Undefined variable $user in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_UserEventDeleteNoteDir.php:16
+[2026-11-12 04:18:59.282029 +0000] [php 2] [fpm-fcgi 500] unlink(/data/data/com.termux/files/home/app/note/web/n/test): Is a directory in /data/data/com.termux/files/home/app/note/uc.php:1086
+[2026-11-12 04:39:30.559069 +0000] [php 1] [fpm-fcgi 500] syntax error, unexpected token ";", expecting ")" in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_UserEventCreateNote.php:24
+[2026-11-12 04:40:05.121666 +0000] [php 1] [fpm-fcgi 500] Call to undefined method App_Pipe_UserEventCreateNote::noteRepo() in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_UserEventCreateNote.php:19
+[2026-11-12 04:40:43.559515 +0000] [php 2] [fpm-fcgi 500] opendir(/data/data/com.termux/files/home/app/note/web/n/user): Failed to open directory: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:1049
+[2026-11-12 04:41:59.241010 +0000] [php 1] [fpm-fcgi 500] Call to undefined method App_Pipe_UserEventCreateNote::noteRepo() in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_UserEventCreateNote.php:19
+[2026-11-12 04:44:00.519937 +0000] [php 2] [fpm-fcgi 500] opendir(/data/data/com.termux/files/home/app/note/web/n/user): Failed to open directory: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:1049
+[2026-11-12 04:44:09.499596 +0000] [php 2] [fpm-fcgi 500] Undefined array key "app" in /data/data/com.termux/files/home/app/note/src/App/res/partial/note_example.html.php:7
+[2026-11-12 04:45:49.983332 +0000] [php 2] [fpm-fcgi 500] opendir(/data/data/com.termux/files/home/app/note/web/n/user): Failed to open directory: No such file or directory in /data/data/com.termux/files/home/app/note/uc.php:1049
+[2026-11-12 04:46:13.528865 +0000] [php 512] [fpm-fcgi 404] Route not found: GET /n/note/list/:user in /data/data/com.termux/files/home/app/note/index.php:65
+[2026-11-12 05:01:19.733772 +0000] [php 1] [fpm-fcgi 500] Call to undefined method Note_Repo::getSize() in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_List.php:58
+[2026-11-12 05:01:19.755428 +0000] [php 1] [fpm-fcgi 500] Call to undefined method Note_Repo::getSize() in /data/data/com.termux/files/home/app/note/src/Note/Pipe/Note_Pipe_List.php:58
+[2026-11-12 05:01:50.746955 +0000] [php 2] [fpm-fcgi 500] Undefined variable $app in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:101
+[2026-11-12 05:02:12.651365 +0000] [php 2] [fpm-fcgi 500] filesize(): stat failed for example.html in /data/data/com.termux/files/home/app/note/uc.php:1136
+[2026-11-12 05:02:51.657629 +0000] [php 1] [fpm-fcgi 500] Unclosed '{' on line 99 does not match ')' in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:101
+[2026-11-12 05:03:03.436631 +0000] [php 2] [fpm-fcgi 500] filesize(): stat failed for /data/data/com.termux/files/home/app/note/web/n/userexample.html in /data/data/com.termux/files/home/app/note/uc.php:1136
+[2026-11-12 06:23:40.927394 +0000] [php 1] [fpm-fcgi 500] diskfreespace() expects exactly 1 argument, 0 given in /data/data/com.termux/files/home/app/note/src/Note/res/partial/list.html.php:29
+[2026-11-12 06:26:35.370716 +0000] [php 1] [fpm-fcgi 500] Call to undefined method Shared_Lib_Cast_Standard::quota() in /data/data/com.termux/files/home/app/note/src/Note/Note_Repo.php:33
+[2026-11-12 07:16:17.201709 +0000] [php 2] [fpm-fcgi 500] Undefined array key "username" in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_Update.php:49
+[2026-11-12 07:16:27.046119 +0000] [php 2] [fpm-fcgi 500] Undefined array key "username" in /data/data/com.termux/files/home/app/note/src/User/Pipe/User_Pipe_Update.php:49
+[2026-11-12 07:17:02.975395 +0000] [php 2] [fpm-fcgi 500] Undefined array key "username" in /data/data/com.termux/files/home/app/note/src/App/Pipe/App_Pipe_UserEventUpdateNoteDir.php:16

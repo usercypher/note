@@ -1,0 +1,13 @@
+<?php
+
+return array(
+    'version' => '4.1.0',
+    'ext' => array(
+        'pdo_sqlite',
+        'sqlite3'
+    ),
+    'use' => array(
+        'App' => '4.0.0',
+        'Shared' => '5.0.0'
+    )
+);

@@ -1,0 +1,3 @@
+- use allow list for creating note files
+- ignore file starting with '.'
+
