@@ -44,7 +44,8 @@ foreach (array(
     }
 </style>
 
-<iframe class="row" id="edit-preview" sandbox="allow-scripts" style="width:100%;border:0;display:none"></iframe>
+<iframe class="row" id="edit-preview" sandbox="allow-scripts" scrolling="no"
+        style="width:100%;border:0;display:none;height:80px;overflow:hidden"></iframe>
 
 <script>
 (function () {
@@ -53,6 +54,11 @@ foreach (array(
     const p  = document.getElementById('edit-preview');
 
     const STYLE = '';
+
+    let currentRender = 0;     // bump per srcdoc write, so stale messages are ignored
+    let lastHeight = 0;
+    let pendingH = null;
+    let rafId = 0;
 
     function isHtml() {
         return /\.(html?|svg)$/i.test(fn.value);
@@ -64,41 +70,35 @@ foreach (array(
         timer = setTimeout(render, 150);
     }
 
+    function applyHeight(h) {
+        // Only ever grow, never shrink from observer messages — prevents clunk.
+        if (h <= lastHeight) return;
+        lastHeight = h;
+        p.style.height = h + 'px';
+    }
+
     function render() {
         if (!isHtml()) {
             p.style.display = 'none';
+            lastHeight = 0;
             return;
         }
         p.style.display = '';
+        lastHeight = 80;
+        p.style.height = '80px';
+
+        const renderId = ++currentRender;
 
         if (!ta.value.trim()) {
             p.srcdoc = `
                 <style>
-                    body { margin:0; height:100vh; display:flex; align-items:center; justify-content:center;
+                    html,body{margin:0;overflow:hidden}
+                    body { min-height:80px; display:flex; align-items:center; justify-content:center;
                            font:14px/1.5 system-ui; color:#999; background:#fff; }
                 </style>
                 <div>Nothing to preview yet - start typing HTML above.</div>`;
-            p.style.height = '80px';
             return;
         }
 
         p.srcdoc = STYLE + ta.value + `
-            <script>
-                const post = () =>
-                    parent.postMessage({ t: 'h', h: document.documentElement.scrollHeight }, '*');
-                addEventListener('load', post);
-                new ResizeObserver(post).observe(document.documentElement);
-            <\/script>`;
-    }
-
-    window.addEventListener('message', function (e) {
-        if (e.data && e.data.t === 'h') {
-            p.style.height = e.data.h + 'px';
-        }
-    });
-
-    ta.addEventListener('input', schedule);
-    fn.addEventListener('input', schedule);
-    render();
-})();
-</script> 
+            <style>html,bo
